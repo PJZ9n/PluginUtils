@@ -3,5 +3,7 @@ build-by-default: true
 branches:
   - master
 projects:
-  PluginUtils: []
+  PluginUtils:
+    type: library
+    model: virion
 ...
